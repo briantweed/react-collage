@@ -1,133 +1,133 @@
 .container {
-  padding: 0.5rem;
-  background: #478c89;
+    padding: 0.5rem;
+    background: #478c89;
 }
 
 .main {
-  min-height: calc(100vh - 1rem);
-  padding: 0.5rem;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #004652;
-  border-radius: 13px;
-  overflow: hidden;
+    min-height: calc(100vh - 1rem);
+    padding: 0.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #004652;
+    border-radius: 13px;
+    overflow: hidden;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  justify-items: center;
-  align-items: center;
-  grid-gap: 8px;
-  width: calc(100vw - 2rem);
-  height: calc(100vh - 2rem);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 8px;
+    width: calc(100vw - 2rem);
+    height: calc(100vh - 2rem);
 }
 
 .flipCard {
-  border-style: hidden;
-  background-color: transparent;
-  width: 100%;
-  height: 100%;
-  perspective: 1000px;
-  cursor: pointer;
-  position: relative;
-  transition: 0.5s all ease-in-out;
-  border-radius: 10px;
+    border-style: hidden;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    perspective: 1000px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s all ease-in-out;
+    border-radius: 10px;
 }
 
 .flipCard:hover {
-  transform: scale(1.03);
-  transition: 0.5s all ease-in-out;
+    transform: scale(1.03);
+    transition: 0.5s all ease-in-out;
 }
 
 .flipCardInner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 1s;
-  transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
 }
 
 .flipCard.show .flipCardInner {
-  transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
+
 .flipCard.show:hover {
-  transform: scale(1)
+    transform: scale(1)
 }
+
 .flipCardFront,
 .flipCardBack {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 10px;
-  overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .flipCardFront {
-  background-color: #bbb;
-  color: black;
+    background-color: #bbb;
+    color: black;
 }
 
 .flipCardFront .id {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 35px;
-  height: 35px;
-  background: #bbb;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0 0 13px 0;
-  line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #bbb;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 13px 0;
+    line-height: 1;
 }
 
 .flipCardFront img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .flipCardBack {
-  background-color: #222e36ef;
-  color: white;
-  transform: rotateY(180deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  padding: 3rem;
+    background-color: #222e36ef;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 3rem;
 }
 
 
 .hide {
-  display: none;
+    display: none;
 }
 
 .display {
-  display: flex;
+    display: flex;
 }
 
 .startButton {
-  padding: 1rem 5rem;
-  border-radius: 50px;
-  background: #bbb;
-  color: black;
-  font-size: 2rem;
-  text-transform: uppercase;
-  border: 2px solid black;
-  transition: all 0.3s ease-in-out;
+    padding: 1rem 5rem;
+    border-radius: 50px;
+    background: #bbb;
+    color: black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
 }
 
 .startButton:hover {
-  cursor: pointer;
-  background: #e5e5e5;
-  transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    background: #e5e5e5;
+    transition: all 0.5s ease-in-out;
 }

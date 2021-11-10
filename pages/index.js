@@ -5,14 +5,16 @@ import data from "../public/json/data.json"
 
 
 
-data = data.map((obj, index) => ({ ...obj, id: index, show: false }))
 
 
 export default function Home() {
 
-    const [cards, setCards] = useState(data);
+    let cardInfo = data.map((obj, index) => ({...obj, id: index, show: false}))
+
+    const [cards, setCards] = useState(cardInfo);
     const [start, setStart] = useState(false);
 
+    const buttonText = "start";
 
     const reveal = (id) => {
         let cardsCopy = [...cards];
@@ -22,12 +24,11 @@ export default function Home() {
         setCards(cardsCopy);
     }
 
-
     return (
         <div className={styles.container}>
 
             <main className={styles.main + " " + (start ? styles.hide : styles.display)}>
-                <button className={styles.startButton} onClick={() => setStart(true)}>start</button>
+                <button className={styles.startButton} onClick={() => setStart(true)}>{ buttonText }</button>
             </main>
 
             <main className={styles.main + " " + (start ? styles.display : styles.hide)}>
