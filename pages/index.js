@@ -6,92 +6,92 @@ const data = [
     {
         id: 0,
         show: false,
-        img: 'bills.jpg',
-        text: 'Buffalo Bills'
+        img: '',
+        text: ''
     },
     {
         id: 1,
         show: false,
-        img: 'piano.jpg',
-        text: 'Piano'
+        img: '',
+        text: ''
     },
     {
         id: 2,
         show: false,
-        img: 'fiorentina.jpg',
-        text: 'Fiorentina'
+        img: '',
+        text: ''
     },
     {
         id: 3,
         show: false,
-        img: 'paradiso.png',
-        text: 'Cinema Paradiso'
+        img: '',
+        text: ''
     },
     {
         id: 4,
         show: false,
-        img: 'hema.jpg',
-        text: 'H.E.M.A.'
+        img: '',
+        text: ''
     },
     {
         id: 5,
         show: false,
-        img: 'spa.jpg',
-        text: 'F1'
+        img: '',
+        text: ''
     },
     {
         id: 6,
         show: false,
-        img: 'lion.jpg',
-        text: 'It\'s a Fake!'
+        img: '',
+        text: ''
     },
     {
         id: 7,
         show: false,
-        img: 'fight-club.png',
-        text: 'Fight Club'
+        img: '',
+        text: ''
     },
     {
         id: 8,
         show: false,
-        img: 'liverpool.jpg',
-        text: 'Liverpool'
+        img: '',
+        text: ''
     },
     {
         id: 9,
         show: false,
-        img: 'disney.jpg',
-        text: 'Disney'
+        img: '',
+        text: ''
     },
     {
         id: 10,
         show: false,
-        img: 'angels.jpg',
-        text: 'Angels with Dirty Faces'
+        img: '',
+        text: ''
     },
     {
         id: 11,
         show: false,
-        img: 'family.jpg',
-        text: 'My Family'
+        img: '',
+        text: ''
     },
     {
         id: 12,
         show: false,
-        img: 'ds9.jpg',
-        text: 'Star Trek'
+        img: '',
+        text: ''
     },
     {
         id: 13,
         show: false,
-        img: 'robot.jpg',
-        text: 'Mr. Robot'
+        img: '',
+        text: ''
     },
     {
         id: 14,
         show: false,
-        img: 'belle.jpg',
-        text: 'Belle'
+        img: '',
+        text: ''
     },
 ]
 
