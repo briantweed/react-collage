@@ -1,20 +1,15 @@
-import styles from '../styles/Home.module.css'
 import {useState} from "react";
+import {cardData, buttonText} from "../public/json/data.json";
+import styles from "../styles/Styles.module.css";
 import Collage from "../components/collage";
-import data from "../public/json/data.json"
-
-
-
 
 
 export default function Home() {
 
-    let cardInfo = data.map((obj, index) => ({...obj, id: index, show: false}))
+    let cardInfo = cardData.map((obj, index) => ({...obj, id: index, show: false}))
 
     const [cards, setCards] = useState(cardInfo);
     const [start, setStart] = useState(false);
-
-    const buttonText = "start";
 
     const reveal = (id) => {
         let cardsCopy = [...cards];

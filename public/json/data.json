@@ -1,62 +1,72 @@
-[
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    },
-    {
-        "img": "",
-        "text": ""
-    }
-]
+{
+    "buttonText": "start",
+
+    "placeHolderImage": "https://via.placeholder.com/400x300.png?text=SimplyIOA",
+
+    "rows": 5,
+
+    "columns":5,
+
+    "cardData" : [
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        },
+        {
+            "img": "",
+            "text": ""
+        }
+    ]
+}
