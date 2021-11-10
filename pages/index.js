@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import {useState} from "react";
 import Collage from "../components/collage";
-import data from "../json/data.json"
+import data from "../public/json/data.json"
 
 
 
