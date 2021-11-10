@@ -1,6 +1,6 @@
 .container {
   padding: 0.5rem;
-  background: #8d0505;
+  background: #478c89;
 }
 
 .main {
@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #3f0c0c;
+  background: #3e0650;
   border-radius: 13px;
   overflow: hidden;
 }
