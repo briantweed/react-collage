@@ -3,70 +3,82 @@
 
     "placeHolderImage": "https://via.placeholder.com/400x300.png?text=SimplyIOA",
 
-    "rows": 5,
+    "rows": 3,
 
-    "columns":5,
+    "columns": 6,
 
     "cardData" : [
         {
-            "img": "",
-            "text": ""
+            "question": "arc eats",
+            "answer": "car seats"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "tobelt",
+            "answer": "bottle"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "flouram",
+            "answer": "formula"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "preadi",
+            "answer": "diaper"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "ighh hacri",
+            "answer": "high chair"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "ktsor",
+            "answer": "stork"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "setyfa inp",
+            "answer": "safety pin"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "bluyall",
+            "answer": "lullaby"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "yabb rodpew",
+            "answer": "baby powder"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "trrommeeeth",
+            "answer": "thermometer"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "grincy",
+            "answer": "crying"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "eniseo",
+            "answer": "onesie"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "letrolls",
+            "answer": "stroller"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "abby timoron",
+            "answer": "baby monitor"
         },
         {
-            "img": "",
-            "text": ""
+            "question": "limboe",
+            "answer": "mobile"
+        },
+        {
+            "question": "reficaip",
+            "answer": "pacifier"
+        },
+        {
+            "question": "sentisab",
+            "answer": "bassinet"
+        },
+        {
+            "question": "treatl",
+            "answer": "rattle"
         }
     ]
 }

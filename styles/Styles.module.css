@@ -1,6 +1,6 @@
 .container {
     padding: 0.5rem;
-    background: #478c89;
+    background: #77cee1;
 }
 
 .main {
@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #004652;
+    background: #2b637e;
     border-radius: 13px;
     overflow: hidden;
 }
@@ -37,8 +37,8 @@
     border-radius: 10px;
 }
 
-.flipCard:hover {
-    transform: scale(1.03);
+.flipCard:hover .flipCardFront {
+    background: #f8d7ef;
     transition: 0.5s all ease-in-out;
 }
 
@@ -67,11 +67,20 @@
     backface-visibility: hidden;
     border-radius: 10px;
     overflow: hidden;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    transition: 0.5s all ease-in-out;
 }
 
 .flipCardFront {
-    background-color: #bbb;
+    background-color: #f3f0f3;
     color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 .flipCardFront .id {
