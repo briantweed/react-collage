@@ -1,10 +1,13 @@
 import {useState} from "react";
-import {cardData, buttonText} from "../public/json/data.json";
+import {data} from "../public/data.js";
 import styles from "../styles/Styles.module.css";
 import Collage from "../components/collage";
+import {atob} from "next/dist/server/web/sandbox/polyfills";
 
 
 export default function Home() {
+
+    let {cardData} = JSON.parse(atob(data));
 
     let cardInfo = cardData.map((obj, index) => ({...obj, id: index, show: false}))
 
@@ -23,7 +26,7 @@ export default function Home() {
         <div className={styles.container}>
 
             <main className={styles.main + " " + (start ? styles.hide : styles.display)}>
-                <button className={styles.startButton} onClick={() => setStart(true)}>{ buttonText }</button>
+                <button className={styles.startButton} onClick={() => setStart(true)}>{ 'start' }</button>
             </main>
 
             <main className={styles.main + " " + (start ? styles.display : styles.hide)}>

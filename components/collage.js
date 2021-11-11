@@ -1,4 +1,3 @@
-import {rows, columns} from "../public/json/data.json";
 import styles from "../styles/Styles.module.css";
 import {useEffect} from "react";
 import Card from "./card";
@@ -8,8 +7,8 @@ export default function Collage ({cards, action}) {
 
     useEffect(() => {
         const gridElement = document.querySelector("#grid");
-        gridElement.style["grid-template-columns"] = `repeat(${columns}, 1fr)`;
-        gridElement.style["grid-template-columns"] = `repeat(${rows}, 1fr)`;
+        gridElement.style["grid-template-columns"] = `repeat(3, 1fr)`;
+        gridElement.style["grid-template-rows"] = `repeat(6, 1fr)`;
     }, []);
 
 
